@@ -1,9 +1,9 @@
 words = ['мадам', 'самолет', 'madam', 'oko']
-palidromes = []
+palindromes = []
 
 for word in words:
     if word == word[::-1]:
-        palidromes.append(word)
+        palindromes.append(word)
 
-print(palidromes)
+print(palindromes)
 
